@@ -1,1 +1,0 @@
-This is the deployed link to the website https://github.com/Bhaveshgitstar/jiitpathfinder-collegmap. I created using JavaScript, Bootstrap, and basic HTML,CSS for the frontend.In this I also used home php but it is optional.
