@@ -1,0 +1,370 @@
+body { 
+    padding-top: 80px; 
+    height: 100%;
+}
+nav ul li {
+	
+	margin-left: 5px;
+	margin-right: 5px;
+}
+nav ul li a{
+	color: white;
+}
+nav ul li a:hover{
+	color: #ec5d4d;
+}
+.dropdown-item{
+	height: 28px;;
+}
+.dropdown-menu { 
+	background-color: rgb(36, 41, 41);
+   }
+ 
+.dropdown-menu a{ 
+	color: white !important;
+   }
+ 
+.dropdown-menu a:hover{
+	background-color: #e74c3c;
+   }
+
+td {
+	border: 0.5px solid white;
+	background-color:#e74c3c;
+    width: 10px;
+    height: 10px;
+}
+
+.key {
+	border: 1px solid yellow;
+	width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+.icons{
+	color:white;
+}
+
+.btn-space {
+	margin-right:25px;
+}
+.btn-default{
+		background-color:#e74c3c;
+		color:white;
+}
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+/* .pathNode{
+	transition : background-color 0.08s ease-in-out;
+	background-color: #ffee31;
+	border-color: #ffee31;
+}*/
+.weight{
+	transition : background-color 0.1s ease-in-out;
+	background-image:url(meteorite.png) ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: wheat;
+} 
+
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: #262b28;
+	border-color:white;
+	color:white;
+}
+.object{
+	transition : background-color 0.1s ease-in-out;
+	background-image: url(Water.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: white;
+	border-color: #79d9ce;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #1cd4b5;
+	border-color: white;
+}
+.searching2{
+	transition : background-color 0.08s ease-in-out;
+	background-color: #b15017;
+	border-color: white;
+}
+.visited2{
+	transition : background-color 0.08s ease-in-out;
+	background-color: #d8e243;
+	border-color:#d8e243;
+	border-color: white;
+}
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #e89440;
+	border-color: white;
+}
+.unvisited{
+	background-color: #e74c3c;
+	border-color: white;
+	color: white;
+}
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color: mediumslateblue;
+	border-color: white;
+}
+
+.start {
+	background-color: green;
+	border-color:white;
+}
+
+.end {
+	background-color: rgb(204, 67, 181);
+	border-color:white;
+	
+}
+
+#bigTableContainer {
+	margin-top: 30px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+#modalTitleContainer {
+	padding-top: 10px;
+}
+
+#login {
+	position:absolute;
+	z-index: 1;
+	background-color: rgb(241, 254, 254);
+	width: 52%;
+	height: 70%;	
+	border: 2px solid rgb(36, 41, 41);
+	border-radius: 4px;
+	color:rgb(104, 81, 81);
+	text-align: left;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	bottom: 0;
+	top: 1;
+	left: 0;
+	right: 0;
+  }
+
+#results {
+	height: 77px;
+	width: 120px;
+	background-color: #fcbd02;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+#resultsIcon {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+#duration, #length {
+	padding: 3px;
+}
+
+#infoModalBtn {
+	margin-left: 290px;
+}
+
+.fun-fact {
+	color: darkgreen;
+}
+.Wall{
+	color:white;
+}
+.meteor{
+	color:white;
+}
+.Srt{
+	color:white;
+}
+.SP{
+	color:white;
+}
+.water{
+	color:white;
+}
+.tar{
+	color:white;
+}
+.unvis{
+	color:white;
+}
+.vis{
+	color:white;
+}
+.submenu-item:hover > .dropdown-menu {
+	display: block;
+  }
+  
+  #tutorial {
+	position:absolute;
+	z-index: 1;
+	background-color: rgb(241, 254, 254);
+	width: 52%;
+	height: 70%;
+	
+	
+	border: 2px solid rgb(36, 41, 41);
+	border-radius: 4px;
+	color:rgb(104, 81, 81);
+	text-align: left;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	bottom: 0;
+	top: 1;
+	left: 0;
+	right: 0;
+  }
+  .center{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 18%;
+  }
+  #skipButton {
+	color: #ffffff;
+	background-color: #e74c3c;
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+  }
+
+/* 
+
+  #tutorialCounter {
+	position: absolute;
+	right: 2%;
+	top: 2%;
+  } */
+
+  /* #tutorialCounter {
+	position: absolute;
+	right: 2%;
+	top: 2%;
+  } */
+  
+  /* #mainTutorialImage {
+	width: 50%;
+	padding-top: 5px;
+  /* } */
+   */
+  #secondTutorialImage {
+	padding-top: 5px;
+  }
+  
+  #tutorial > h3 {
+    text-align: center;
+	padding-bottom: 5px;
+  }
+  
+  #tutorial > h6 {
+	  
+	padding: 5px 20px 5px 20px;
+  }
+  
+  #tutorial > p {
+	padding: 5px 20px 5px 20px;
+  }
+  
+  #tutorial > ul li {
+	list-style: none;
+	padding-bottom: 5px;
+	padding-right: 40px;
+	font-size: 14px;
+  }
+
+  
+  .panel {
+    position: fixed;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+.right_panel {
+    width: 250px;
+    right: 20px;
+}
+#algorithm_panel {
+    right: 20px;
+    top: 20px;
+}
+
+#instructions_panel {
+	position:absolute;
+	z-index: 1;
+	background-color: rgb(241, 254, 254);
+	width: 52%;
+	height: 70%;
+	
+	
+	border: 2px solid rgb(36, 41, 41);
+	border-radius: 4px;
+	color:rgb(104, 81, 81);
+	text-align: left;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	bottom: 0;
+	top: 1;
+	left: 0;
+	right: 0;
+	
+}
+
+#hide_instructions {
+	color: #ffffff;
+	background-color: #e74c3c;
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+}
+
+#hide_instruction:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
